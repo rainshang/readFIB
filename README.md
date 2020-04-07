@@ -15,8 +15,14 @@ The `FIB.md` should be like this,
 
 all the non-word lines like the `<span>` will be ignored.
 
-Then press any key to begin your dictation. **Notice:** please enter your answer after the `Your answer: ` shows. I know it's slow, limited by the text-to-speech lib though.
+Then press `Enter` to begin your dictation. *Notice:* Recommend to enter your answer after the `Your answer: ` shows. I know it's slow, limited by the text-to-speech lib though.
 
 ![](img/2.png)
 
-Again, fcking good luck!
+Moreover, it supports only reviewing the words you haven't mastered using the option `-o`, and the words are identified by tag `<meijizhu>`.
+
+![](img/3.png)
+
+I also provide the option `-s` to specify the starting line. Use `-h` or `--help` to see the detail.
+
+Again, enjoy and have fcking good luck!
