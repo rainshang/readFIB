@@ -9,13 +9,13 @@ Basically just run it and it will read the `FIB.md` file in parent directory by 
 
 ![](img/0.png)
 
-The `FIB.md` could like this,
+The `FIB.md` should be like this,
 
 ![](img/1.png)
 
 all the non-word lines like the `<span>` will be ignored.
 
-Then press any key to begin your dictation.
+Then press any key to begin your dictation. **Notice:** please enter your answer after the `Your answer: ` shows. I know it's slow, limited by the text-to-speech lib though.
 
 ![](img/2.png)
 
