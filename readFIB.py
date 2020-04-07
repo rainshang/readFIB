@@ -23,11 +23,13 @@ def main():
             engine.runAndWait()
             answer = input('Your answer: ')
             if word == answer:
-                print(f'{PrintColors.GREEN}Nice work~{PrintColors.RESET}')
+                print(
+                    f'{PrintColors.GREEN}Nice work~{PrintColors.RESET}  {line}',
+                    end='')
             else:
                 print(
-                    f'Correct answer is: {PrintColors.RED}{word}{PrintColors.RESET}'
-                )
+                    f'Correct answer is: {PrintColors.RED}{word}{PrintColors.RESET}  {line}',
+                    end='')
 
 
 if __name__ == "__main__":
